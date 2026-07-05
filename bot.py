@@ -18,7 +18,7 @@ import telebot
 from telebot import types
 
 # ===== توکن ربات خود را اینجا قرار دهید =====
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
 
 CREATOR = "امیرعلی فروزان اصل"
